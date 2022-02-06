@@ -50,11 +50,11 @@ typedef struct {
     u32 report_count;
 } UsbDsReportData;
 
-typedef enum {
+typedef enum : u32 {
     UsbComplexId_Default = 0x2
 } UsbComplexId;
 
-typedef enum {
+typedef enum : u32 {
     UsbDeviceSpeed_None = 0x0,
     UsbDeviceSpeed_Low = 0x1,   ///< USB 1.0 Low Speed
     UsbDeviceSpeed_Full = 0x2,  ///< USB 1.1 Full Speed
